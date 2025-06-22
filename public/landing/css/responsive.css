@@ -1,0 +1,313 @@
+/* Responsive CSS for The Leader One Page Business HTML Template */
+
+@media only screen and (min-width: 1400px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .searchbox {
+        padding-left: 12px;
+    }
+    .menu li a {
+        padding: 12px 18px;
+    }
+    .about-slider .slick-slide img {
+        height: 360px;
+    }
+    .member-contact {
+        padding-left: 40px;
+    }
+    .slick-next {
+        right: 44%;
+    }
+    .slick-prev {
+        left: 44%
+    }
+    .knowledge h2 {
+        font-size: 37px;
+    }
+    .projects-hover {
+        line-height: 103px;
+    }
+    .projects-hover h3 {
+        font-size: 20px;
+    }
+    .about-content > h2 {
+        padding-bottom: 30px;
+    }
+    .about-content .about-button {
+        padding: 14px 26px;
+    }
+    .logotitle {
+        right: 15%;
+    }
+    .social-icon a {
+        margin-left: 9px;
+    }
+    .section-title::before {
+        right: -9530px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Menu section CSS*/
+    .navbar-brand > img {
+        width: 128px;
+    }
+    .container {
+        padding-left: 5px;
+    }
+    .menu li a {
+        font-size: 12px;
+        padding: 7px 11px;
+    }
+    .searchbox {
+        line-height: 37px;
+        padding-left: 15px;
+    }
+    .searchopen {
+        opacity: 1;
+        width: 300px;
+    }
+    .menuborder {
+        padding-bottom: 0px;
+    }
+    /* Welcome text CSS */
+    .welcome-text h1 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    /* Service section CSS */
+    .signel-service {
+        padding: 40px 20px;
+    }
+    .section-title::before {
+        right: -9642px;
+    }
+    /* About Us section CSS */
+    .about-content .about-button {
+        padding: 11px 20px;
+    }
+    .member-contact ul li {
+        padding-bottom: 0;
+    }
+    .member-contact {
+        font-size: 13px;
+        padding-left: 20px;
+        text-align: left;
+    }
+    .slick-prev {
+        left: 42.5%;
+    }
+    .slick-next {
+        right: 42.5%;
+    }
+    /* Features section CSS */
+    .logotitle {
+        right: 8%;
+    }
+    .projects-hover h3 {
+        font-size: 15px;
+    }
+    .projects-hover h4 {
+        font-size: 14px
+    }
+    .projects-hover {
+        line-height: 78px;
+    }
+    .projects-hover img {
+        margin-bottom: -20px;
+    }
+    /* Footer section CSS */
+    .footer-logo {
+        padding-bottom: 30px;
+    }
+    .social-icon {
+        padding-top: 30px;
+    }
+    /* Count down section CSS*/
+    .busenessbutton {
+        padding: 18px 25px;
+    }
+    .copyright-section {
+        overflow: hidden;
+    }
+    .footer-address {
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .welcome-text h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .service-button {
+        line-height: 50px;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .navbar-toggle span {
+        background: #fff;
+    }
+    .menu {
+        text-align: center;
+    }
+    .menu > li.active,
+    .menu li:hover {
+        background: transparent;
+        color: #fe562e;
+    }
+    .menu li a:hover {
+        color: #fe562e;
+    }
+    .navbar-collapse {
+        background: #252526 none repeat scroll 0 0;
+        border-top: 0;
+        box-shadow: none;
+    }
+    .searchbox {
+        float: none;
+        padding-left: 0;
+        text-align: center;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+    .section-title::before {
+        right: -9860px;
+    }
+    .signel-service {
+        height: 260px;
+        padding: 20px;
+    }
+    .about-content {
+        padding-top: 30px;
+    }
+    .about-content .about-button {
+        padding: 15px 20px;
+    }
+    .member-contact {
+        padding-left: 60px;
+    }
+    .slick-prev {
+        left: 33%;
+    }
+    .slick-next {
+        right: 33%
+    }
+    .business-content h2 {
+        font-size: 25px;
+    }
+    .business-content p {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    .projects-hover {
+        line-height: 80px;
+    }
+    .contact-form {
+        padding-top: 50px;
+    }
+    .footer-address {
+        margin-bottom: 30px;
+        padding-left: 30px;
+    }
+    .footer-logo {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .social-icon {
+        text-align: left;
+        padding-left: 30px;
+    }
+    .copyright-section {
+        overflow: hidden;
+    }
+    .footer-title h2 {
+        font-size: 30px;
+    }
+    .logotitle {
+        display: none;
+    }
+    .knowledge-button {
+        padding: 10px 21px;
+    }
+    .knowledge h2 {
+        font-size: 20px;
+    }
+    .section-padding {
+        padding: 70px 0;
+    }
+    .team-area {
+        padding-bottom: 110px;
+    }
+    .service-button {
+        height: 40px;
+        line-height: 40px !important;
+        width: 170px;
+    }
+    .learn-button {
+        height: 40px;
+        line-height: 40px;
+        width: 170px;
+    }
+    .searchopen {
+        opacity: 1;
+        width: 230px;
+        right: 14%;
+        bottom: 0
+    }
+    .addressbg {
+        padding-bottom: 56px;
+    }
+    .googlemap {
+        height: 300px;
+        width: 100%;
+    }
+    .portfolio-section.section-padding.overfolowhidden {
+        padding-bottom: 0;
+    }
+    .padding-top {
+        padding-top: 60px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .footer-address {
+        margin-bottom: 30px;
+        padding-left: 110px;
+    }
+    .social-icon {
+        padding-left: 110px;
+    }
+    .single-form textarea {
+        height: 140px;
+    }
+    .projects-hover img {
+        margin-bottom: -63px;
+    }
+    .projects-hover {
+        line-height: 150px;
+    }
+    .business-content h2 {
+        font-size: 35px;
+    }
+    .knowledge h2 {
+        font-size: 30px;
+    }
+    .member-contact {
+        padding-left: 120px;
+    }
+    .about-slider img {
+        width: 100%;
+    }
+    .signel-service {
+        padding: 60px;
+    }
+    .welcome-text h1 {
+        font-size: 35px;
+    }
+    .service-button {
+        line-height: 50px;
+        margin-bottom: 0;
+    }
+}

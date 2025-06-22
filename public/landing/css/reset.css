@@ -1,0 +1,98 @@
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Include all Fonts */
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/web/montserrat-regular.eot');
+    src: url('../fonts/web/montserrat-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/web/montserrat-regular.woff2') format('woff2'),
+         url('../fonts/web/montserrat-regular.woff') format('woff'),
+         url('../fonts/web/montserrat-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'abril_fatfaceregular';
+    src: url('../fonts/web/abrilfatface-regular-webfont.woff2') format('woff2'),
+         url('../fonts/web/abrilfatface-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* END of Fonts*/
+
+body {
+    font-family: 'montserratregular';
+    font-size: 14px;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+button,a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    border: none;
+    outline: none;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,p {
+    margin: 0;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'abril_fatfaceregular';
+}
+
+.nav > li > a:focus,
+.nav > li > a:hover {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.navbar{
+    margin-bottom: 0;
+    border:0;
+
+}
+
+input:focus,input:active{
+    outline: none;
+}
+
+textarea:focus{
+    outline: none !important;
+    box-shadow: none !important
+}
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}

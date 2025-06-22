@@ -1,0 +1,46 @@
+.menu > li.active,
+.menu li:hover {
+    background: #27bea3 none repeat scroll 0 0;
+}
+.menu li a span.fa {
+    color: #27bea3;
+}
+.learn-button {
+    background: #27bea3 none repeat scroll 0 0;
+}
+.signel-service i {
+    color: #27bea3;
+}
+.signel-service:hover .border-top, .signel-service:hover .border-left, .signel-service:hover .border-bottom, .signel-service:hover .border-right, .signel-service:hover h4::before {
+    background: #27bea3;
+}
+.about-content .about-button {
+    background: #27bea3 none repeat scroll 0 0;
+}
+.single-team:before {
+    background: #27bea3;
+}
+.member-contact ul li span {
+    color: #27bea3;
+}
+.slick-arrow:hover {
+    background: #27bea3;
+}
+.slick-dots > li.slick-active button {
+    background: #27bea3 none repeat scroll 0 0;
+}
+.knowledge-button {
+    background: #27bea3 none repeat scroll 0 0;
+}
+.busenessbutton {
+    background: #27bea3 none repeat scroll 0 0;
+}
+.projects-hover {
+    background: rgba(39, 190, 163, 0.80) none repeat scroll 0 0;
+}
+.submit {
+    background: #27bea3;
+}
+.copyright-text span {
+    color: #27bea3;
+}
