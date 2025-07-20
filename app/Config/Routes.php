@@ -47,3 +47,8 @@ foreach($moduleRoute as $slug => $controller)
     $routes->get('/'.$slug.'/(:num)/edit', $controller.'::edit/$1', ['filter' => 'auth']);
     $routes->post('/'.$slug.'/(:num)/edit', $controller.'::update/$1', ['filter' => 'auth']);
 }
+
+$routes->get('/asset/detail/(:num)', 'Lbs\AssetController::getDetail/$1', ['filter' => 'auth']);
+$routes->get('/asset/verifikasi/(:num)', 'Lbs\AssetController::verifikasi/$1', ['filter' => 'auth']);
+$routes->get('/asset/search', 'Lbs\AssetController::search/$1', ['filter' => 'auth']);
+$routes->get('/laporan', 'Lbs\LaporanController::index', ['filter' => 'auth']);

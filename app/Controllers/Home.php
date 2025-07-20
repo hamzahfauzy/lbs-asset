@@ -5,6 +5,7 @@ namespace App\Controllers;
 use App\Libraries\Page;
 use App\Models\Lbs\Lokasi;
 use App\Models\Lbs\Pemilik;
+use App\Models\Lbs\Desa;
 
 class Home extends BaseController
 {
@@ -24,7 +25,7 @@ class Home extends BaseController
             ]
         ]);
 
-        $lokasi = (new Lokasi())->findAll();
+        $lokasi = (new Lokasi())->where('status','TERVERIFIKASI')->findAll();
         $polygon = [];
         foreach($lokasi as $l)
         {
@@ -40,13 +41,17 @@ class Home extends BaseController
             $pemilik = (new Pemilik())->find($l['pemilik_id']);
 
             $polygon[] = [
+                'id' => $l['id'],
                 'content' => $pemilik['nama'] .' - ' . $pemilik['alamat'],
                 'coordinates' => $coordinates
             ];
         }
+
+        $desa = (new Desa)->findAll();
         
         return $page->render('home/dashboard', [
-            'polygon' => $polygon
+            'polygon' => $polygon,
+            'desa' => $desa
         ]);
     }
 }

@@ -17,8 +17,8 @@
                             <div class="alert alert-danger"><?= session()->getFlashdata('msg') ?></div>
                         <?php endif;?>
                         <div class="form-group">
-                            <label for="email2">Email Address</label>
-                            <input type="email" class="form-control" id="email2" placeholder="Enter Email" name="email" value="<?= set_value('email') ?>">
+                            <label for="email2">NIK/Email Address</label>
+                            <input type="text" class="form-control" id="email2" placeholder="Enter Email" name="email" value="<?= set_value('email') ?>">
                         </div>
                         <div class="form-group">
                             <label for="password">Password</label>

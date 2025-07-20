@@ -14,14 +14,14 @@
 <?= $this->section('scripts') ?>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script>
-var map = L.map('map').setView([2.985152, 99.628889], 14);
+var map = L.map('map').setView([2.918901151692474, 99.54929623605567], 14);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
-var marker = L.marker([2.985152, 99.628889], {
+var marker = L.marker([2.918901151692474, 99.54929623605567], {
     draggable: true,
     autoPan: true
 }).addTo(map);
@@ -52,7 +52,7 @@ marker.on("dragend", function(e) {
 
 <?= $this->section('content') ?>
 <div class="card">
-    <form action="" method="POST">
+    <form action="" method="POST" enctype="multipart/form-data">
         <div class="card-body">
             <?= csrf_field() ?>
             
